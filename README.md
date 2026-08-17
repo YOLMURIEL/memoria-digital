@@ -1,2 +1,2 @@
-# memoria-digital
+# Memoria-digital
 MEMORIA — Digital memorial prototype
