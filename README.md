@@ -1,5 +1,5 @@
 # MEMORIA — prototipo web
-Esta es una maqueta funcional y estática para la candidatura a Hexagonal Innova.
+Esta es una maqueta funcional y estática para la candidatura a HI.
 
 Incluye:
 - muro digital navegable;
