@@ -1,6 +1,5 @@
 # MEMORIA — prototipo web
-Esta es una maqueta funcional y estática para la candidatura a HI.
-
+Esta es una maqueta funcional y estática para la creación de la web Memoria digital.
 Incluye:
 - muro digital navegable;
 - buscador y filtro por año;
