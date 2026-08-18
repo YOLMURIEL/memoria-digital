@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Ana Z.",
+    "age": 56,
+    "date": "2024-01-12",
+    "place": "Torre del Mar (Málaga)",
+    "year": 2024
+  },
+  {
+    "name": "Fátima Dahan",
+    "age": 44,
+    "date": "2024-01-28",
+    "place": "Torroella de Montgrí (Girona)",
+    "year": 2024
+  },
+  {
+    "name": "Rocío de La Palma",
+    "age": 44,
+    "date": "2024-02-05",
+    "place": "l’Alfàs del Pi (Alicante)",
+    "year": 2024
+  },
+  {
+    "name": "Laila",
+    "age": 37,
+    "date": "2024-02-22",
+    "place": "Olot (Girona)",
+    "year": 2024
+  },
+  {
+    "name": "Cándida Molina",
+    "age": 54,
+    "date": "2024-02-23",
+    "place": "Aldea del Rey (Ciudad Real)",
+    "year": 2024
+  },
+  {
+    "name": "Gracia Casermeiro",
+    "age": 48,
+    "date": "2024-03-19",
+    "place": "Pizarra (Málaga)",
+    "year": 2024
+  },
+  {
+    "name": "Andrea Yturry",
+    "age": 24,
+    "date": "2024-03-19",
+    "place": "Palmeira, Ribeira (A Coruña)",
+    "year": 2024
+  },
+  {
+    "name": "Thais",
+    "age": 34,
+    "date": "2024-03-25",
+    "place": "Amposta (Tarragona)",
+    "year": 2024
+  },
+  {
+    "name": "Bianca Pitman",
+    "age": 43,
+    "date": "2024-04-06",
+    "place": "Málaga",
+    "year": 2024
+  },
+  {
+    "name": "Vanesa",
+    "age": 42,
+    "date": "2024-04-09",
+    "place": "El Prat de Llobregat (Barcelona)",
+    "year": 2024
+  },
+  {
+    "name": "Rachida",
+    "age": 51,
+    "date": "2024-04-19",
+    "place": "Barcelona",
+    "year": 2024
+  },
+  {
+    "name": "Ana B.F.",
+    "age": 29,
+    "date": "2024-05-19",
+    "place": "Esparreguera (Barcelona)",
+    "year": 2024
+  },
+  {
+    "name": "Natia",
+    "age": 32,
+    "date": "2024-06-03",
+    "place": "Barcelona",
+    "year": 2024
+  },
+  {
+    "name": "Florica",
+    "age": 55,
+    "date": "2024-06-07",
+    "place": "Benaguasil (Valencia)",
+    "year": 2024
+  },
+  {
+    "name": "Soledad",
+    "age": 66,
+    "date": "2024-06-18",
+    "place": "Soto del Real (Madrid)",
+    "year": 2024
+  },
+  {
+    "name": "Lorena",
+    "age": 62,
+    "date": "2024-06-10",
+    "place": "Cistella (Girona)",
+    "year": 2024
+  },
+  {
+    "name": "Petri",
+    "age": 76,
+    "date": "2024-06-28",
+    "place": "Fuengirola (Málaga)",
+    "year": 2024
+  },
+  {
+    "name": "Laura",
+    "age": 20,
+    "date": "2024-06-29",
+    "place": "Zafarraya (Granada)",
+    "year": 2024
+  },
+  {
+    "name": "Marian",
+    "age": 49,
+    "date": "2024-06-29",
+    "place": "Zafarraya (Granada)",
+    "year": 2024
+  },
+  {
+    "name": "Ammal",
+    "age": 30,
+    "date": "2024-06-29",
+    "place": "Las Pedroñeras (Cuenca)",
+    "year": 2024
+  },
+  {
+    "name": "Rosi (Rosa María)",
+    "age": 67,
+    "date": "2024-07-05",
+    "place": "Villena (Alicante)",
+    "year": 2024
+  },
+  {
+    "name": "Laila Mercedes",
+    "age": 50,
+    "date": "2024-07-05",
+    "place": "Antequera (Málaga)",
+    "year": 2024
+  },
+  {
+    "name": "Susana L.V.",
+    "age": 48,
+    "date": "2024-07-06",
+    "place": "Ejea de los Caballeros (Zaragoza)",
+    "year": 2024
+  },
+  {
+    "name": "Juliana Denise Vinuesa",
+    "age": 31,
+    "date": "2024-07-13",
+    "place": "Buñol (Valencia)",
+    "year": 2024
+  },
+  {
+    "name": "Sara Abigail Carbajal Altamirano",
+    "age": 29,
+    "date": "2024-07-13",
+    "place": "Madrid",
+    "year": 2024
+  },
+  {
+    "name": "Gertruida (Trudy)",
+    "age": 76,
+    "date": "2024-07-13",
+    "place": "Salou (Tarragona)",
+    "year": 2024
+  },
+  {
+    "name": "Margarita Volkova",
+    "age": 36,
+    "date": "2024-07-14",
+    "place": "Alicante",
+    "year": 2024
+  },
+  {
+    "name": "Manuela C.C.",
+    "age": 32,
+    "date": "2024-07-14",
+    "place": "Sabadell (Barcelona)",
+    "year": 2024
+  },
+  {
+    "name": "Mercedes Ríos Muñiz",
+    "age": 74,
+    "date": "2024-08-02",
+    "place": "A Coruña",
+    "year": 2024
+  },
+  {
+    "name": "Mónica Álvarez",
+    "age": 48,
+    "date": "2024-08-12",
+    "place": "Valladolid",
+    "year": 2024
+  },
+  {
+    "name": "Pilar",
+    "age": 61,
+    "date": "2024-08-20",
+    "place": "Rubí (Barcelona)",
+    "year": 2024
+  },
+  {
+    "name": "Mari Àngels",
+    "age": 66,
+    "date": "2024-08-20",
+    "place": "Castellbisbal (Barcelona)",
+    "year": 2024
+  },
+  {
+    "name": "Amparo D.P.",
+    "age": 58,
+    "date": "2024-08-28",
+    "place": "Sevilla",
+    "year": 2024
+  },
+  {
+    "name": "María Elizabeth",
+    "age": 33,
+    "date": "2024-09-03",
+    "place": "Madrid",
+    "year": 2024
+  },
+  {
+    "name": "Yanely",
+    "age": 31,
+    "date": "2024-09-12",
+    "place": "Bilbao",
+    "year": 2024
+  },
+  {
+    "name": "Lorena Pilar",
+    "age": 46,
+    "date": "2024-09-20",
+    "place": "Castellón",
+    "year": 2024
+  },
+  {
+    "name": "María Nieves Gamarra Puebla",
+    "age": 56,
+    "date": "2024-10-04",
+    "place": "Roquetas de Mar (Almería)",
+    "year": 2024
+  },
+  {
+    "name": "Fadoua Akkar",
+    "age": 41,
+    "date": "2024-10-05",
+    "place": "Moaña (Pontevedra)",
+    "year": 2024
+  },
+  {
+    "name": "M.C.G.B. / Mari Carmen",
+    "age": 39,
+    "date": "2024-10-18",
+    "place": "Logroño (La Rioja)",
+    "year": 2024
+  },
+  {
+    "name": "Mainca (Mimi)",
+    "age": 33,
+    "date": "2024-10-17",
+    "place": "Arroyo de Cuéllar (Segovia)",
+    "year": 2024
+  },
+  {
+    "name": "Hafsa",
+    "age": 40,
+    "date": "2024-10-22",
+    "place": "La Mojonera (Almería)",
+    "year": 2024
+  },
+  {
+    "name": "Cloe",
+    "age": 15,
+    "date": "2024-11-04",
+    "place": "Orihuela (Alicante)",
+    "year": 2024
+  },
+  {
+    "name": "María Celeste R.G.",
+    "age": 46,
+    "date": "2024-11-23",
+    "place": "Estepa (Sevilla)",
+    "year": 2024
+  },
+  {
+    "name": "Leonor",
+    "age": 45,
+    "date": "2024-11-30",
+    "place": "Pasaia Antxo (Gipuzkoa)",
+    "year": 2024
+  },
+  {
+    "name": "María del Rosario Díaz",
+    "age": 32,
+    "date": "2024-12-10",
+    "place": "Palma (Illes Balears)",
+    "year": 2024
+  },
+  {
+    "name": "Martha Isabel",
+    "age": 50,
+    "date": "2024-12-17",
+    "place": "Cartagena (Murcia)",
+    "year": 2024
+  },
+  {
+    "name": "Rejane S. de G.",
+    "age": 42,
+    "date": "2024-12-18",
+    "place": "Viveiro (Lugo)",
+    "year": 2024
+  },
+  {
+    "name": "Diana Marisol Vázquez",
+    "age": 29,
+    "date": "2024-12-30",
+    "place": "Madrid",
+    "year": 2024
+  }
+]
