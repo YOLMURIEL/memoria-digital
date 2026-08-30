@@ -6,6 +6,8 @@
   "additionalProperties": false,
   "required": [
     "year",
+    "name",
+    "date",
     "source",
     "verified"
   ],
@@ -16,16 +18,11 @@
       "maximum": 2100
     },
     "name": {
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": "string",
+      "minLength": 1
     },
     "date": {
-      "type": [
-        "string",
-        "null"
-      ],
+      "type": "string",
       "format": "date"
     },
     "source": {
