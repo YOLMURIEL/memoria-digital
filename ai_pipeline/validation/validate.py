@@ -11,12 +11,17 @@ It only accepts or rejects data according to predefined rules.
 from datetime import datetime
 
 
+# Fields that every memorial record must contain.
 REQUIRED_FIELDS = {
     "year",
+    "name",
+    "date",
     "source",
     "verified"
 }
 
+
+# Fields explicitly allowed in a memorial record.
 ALLOWED_FIELDS = {
     "year",
     "name",
@@ -42,7 +47,7 @@ def validate_record(record):
     if not isinstance(record, dict):
         return False, ["Record must be a JSON object."]
 
-    # 2. Required fields
+    # 2. Check required fields
     missing = REQUIRED_FIELDS - record.keys()
 
     if missing:
@@ -63,28 +68,29 @@ def validate_record(record):
 
     if not isinstance(year, int) or isinstance(year, bool):
         errors.append("Year must be an integer.")
-    elif year < 2003:
-        errors.append("Year cannot be earlier than 2003.")
+    elif year < 2003 or year > 2100:
+        errors.append("Year must be between 2003 and 2100.")
 
     # 5. Validate name
     name = record.get("name")
 
-    if name is not None and not isinstance(name, str):
-        errors.append("Name must be a string or null.")
+    if not isinstance(name, str):
+        errors.append("Name must be a string.")
+    elif not name.strip():
+        errors.append("Name cannot be empty.")
 
     # 6. Validate date
     date = record.get("date")
 
-    if date is not None:
-        if not isinstance(date, str):
-            errors.append("Date must be a string or null.")
-        else:
-            try:
-                datetime.strptime(date, "%Y-%m-%d")
-            except ValueError:
-                errors.append(
-                    "Date must use ISO format YYYY-MM-DD."
-                )
+    if not isinstance(date, str):
+        errors.append("Date must be a string.")
+    else:
+        try:
+            datetime.strptime(date, "%Y-%m-%d")
+        except ValueError:
+            errors.append(
+                "Date must use ISO format YYYY-MM-DD."
+            )
 
     # 7. Validate source
     source = record.get("source")
@@ -108,25 +114,49 @@ def validate_record(record):
     if not isinstance(verified, bool):
         errors.append("Verified must be true or false.")
 
+    # 10. Final decision
     return len(errors) == 0, errors
 
 
 if __name__ == "__main__":
 
-    example = {
+    # Example of a valid record.
+    valid_example = {
         "year": 2024,
-        "name": None,
-        "date": None,
+        "name": "Example Name",
+        "date": "2024-03-15",
         "source": "Official public source",
         "source_document": None,
         "verified": True
     }
 
-    valid, errors = validate_record(example)
+    valid, errors = validate_record(valid_example)
 
     if valid:
-        print("VALID: record passed deterministic validation.")
+        print("ACCEPT")
+        print("Record passed deterministic validation.")
     else:
-        print("INVALID: record rejected.")
+        print("REJECT")
+        for error in errors:
+            print(f"- {error}")
+
+
+    # Example of an invalid record.
+    invalid_example = {
+        "year": 2024,
+        "name": "",
+        "date": "not-a-date",
+        "source": "",
+        "verified": "yes",
+        "unknown_field": "not allowed"
+    }
+
+    valid, errors = validate_record(invalid_example)
+
+    if valid:
+        print("ACCEPT")
+        print("Record passed deterministic validation.")
+    else:
+        print("REJECT")
         for error in errors:
             print(f"- {error}")
