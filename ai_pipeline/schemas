@@ -1,1 +1,45 @@
-
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Memoria Digital Victim Record",
+  "description": "Structured schema for verified public information used in the Memoria Digital memorial.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "year",
+    "source",
+    "verified"
+  ],
+  "properties": {
+    "year": {
+      "type": "integer",
+      "minimum": 2003,
+      "maximum": 2100
+    },
+    "name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_document": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verified": {
+      "type": "boolean"
+    }
+  }
+}
