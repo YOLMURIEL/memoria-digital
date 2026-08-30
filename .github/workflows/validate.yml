@@ -1,0 +1,34 @@
+```yaml
+name: Validate Memoria Digital AI Pipeline
+
+on:
+  push:
+    paths:
+      - "ai_pipeline/**"
+      - ".github/workflows/validate.yml"
+  pull_request:
+    paths:
+      - "ai_pipeline/**"
+      - ".github/workflows/validate.yml"
+
+jobs:
+  validate:
+    name: Run deterministic validation tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run validation tests
+        working-directory: ai_pipeline
+        env:
+          PYTHONPATH: .
+        run: |
+          python -m unittest discover -s tests -p "test_*.py"
+```
