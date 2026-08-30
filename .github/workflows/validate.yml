@@ -1,4 +1,4 @@
-```yaml
+
 name: Validate Memoria Digital AI Pipeline
 
 on:
@@ -31,4 +31,4 @@ jobs:
           PYTHONPATH: .
         run: |
           python -m unittest discover -s tests -p "test_*.py"
-```
+
